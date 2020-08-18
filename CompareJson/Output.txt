@@ -1,0 +1,76 @@
+{
+	"Employee": {
+		"apiConnectionDefn": "null",
+		"objectDefn": "null",
+		"description": "Employee",
+		"label": "Employee",
+		"apiConnectionDefnId": "null",
+		"type": "USER_DEFINED",
+		"version": "1.0",
+		"apiPath": "null",
+		"name": "Employee",
+		"tenantId": "pX2e1e12c31",
+		"fields": {
+			"name": {
+				"localizedFlag": "false",
+				"dataTypeDefn": {
+					"name": "Text",
+					"dataTypeDefnId": "TEXT"
+				},
+				"description": "name",
+				"dataTypeDefnId": "TEXT",
+				"nullableFlag": "false",
+				"label": "name",
+				"sequence": "2.0",
+				"searchableFlag": "false",
+				"deletedFlag": "false",
+				"tenantId": "pX2e1e12c31",
+				"name": "name",
+				"primaryKeyFlag": "false",
+				"uniqueKeyFlag": "false"
+			},
+			"divId": {
+				"localizedFlag": "false",
+				"dataTypeDefn": {
+					"name": "Text",
+					"dataTypeDefnId": "TEXT"
+				},
+				"description": "Employee ID",
+				"dataTypeDefnId": "TEXT",
+				"label": "employee Id",
+				"nullableFlag": "false",
+				"searchableFlag": "false",
+				"sequence": "1.0",
+				"deletedFlag": "false",
+				"name": "employeeId",
+				"tenantId": "pX2e1e12c31",
+				"primaryKeyFlag": "true",
+				"uniqueKeyFlag": "false"
+			}
+		},
+		"baseMasterDataDefnId": "null",
+		"activeFlag": "false"
+	},
+	"DepartmentDivisions": {
+		"fields": {
+			"activeFlag": {
+				"localizedFlag": "false",
+				"dataTypeDefn": {
+					"name": "Text",
+					"dataTypeDefnId": "TEXT"
+				},
+				"description": "Active Flag",
+				"dataTypeDefnId": "TEXT",
+				"label": "Active Flag",
+				"nullableFlag": "false",
+				"sequence": "3.0",
+				"searchableFlag": "false",
+				"deletedFlag": "false",
+				"tenantId": "pX2e1e12c31",
+				"name": "activeFlag",
+				"primaryKeyFlag": "false",
+				"uniqueKeyFlag": "false"
+			}
+		}
+	}
+}

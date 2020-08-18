@@ -1,0 +1,8 @@
+{
+    "employee":
+    {
+        "id": "1245",
+        "fullName": "John Miles",
+        "age": 34
+    }
+}
