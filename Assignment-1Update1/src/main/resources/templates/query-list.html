@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+  <!--   <p th:text="'Months where expenses is more than 650' +  ${getterthan650}" >
+ <p th:text="'Months where expenses is more than 5000' +  ${getterthan5000}" >-->
+  <p>Search options:</p>
+ <select  th:each ="Query : ${expenses}" >
+    <option th:value ="'one'" th:text="${Query.getterthan650}"></option>
+    <option ></option>
+ </select>
+        <input type="submit" value="Search" name="searchButton"/>
+     
+
+</body>
+</html>
