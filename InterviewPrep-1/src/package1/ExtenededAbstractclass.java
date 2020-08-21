@@ -2,6 +2,8 @@ package package1;
 
 public class ExtenededAbstractclass extends AbstractClass {
 
+	
+
 	@Override
 	public String myName() {
 		// TODO Auto-generated method stub

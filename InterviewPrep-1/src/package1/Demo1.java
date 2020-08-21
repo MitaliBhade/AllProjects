@@ -8,6 +8,8 @@ public class Demo1 {
 		ExtenededAbstractclass c1 =  new ExtenededAbstractclass();
 		
 	     AbstractClass.myAge();
+	     
+
 	   
 	}
 
