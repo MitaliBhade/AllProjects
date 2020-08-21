@@ -10,6 +10,7 @@ public class Demo1 {
 	     AbstractClass.myAge();
 	     
 
+	     
 	   
 	}
 
